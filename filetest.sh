@@ -1,5 +1,7 @@
 #!/bin/bash
-if [ -d $1 ]
+
+#This scripts tests if the input arguments passed is file or directory
+if [ -d $1 ]    
 then
 	echo "It is a directory and exists"
 	pwd
